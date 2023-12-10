@@ -1,0 +1,122 @@
+.container{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.imgAbout{
+    height: 350px;
+    width: 350px;
+}
+.container_about{
+    display: flex;
+    gap: 2rem;
+    margin: auto;
+    background-image: url('../../assets/dog.jpg');
+    height: 600px;
+    background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  justify-content: end;
+  align-items: end;
+ 
+}
+.text-about{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(4px);
+    box-shadow: 2px 2px  2px 5px rgba(131, 131, 131, 0.1);
+
+}
+
+.container_donate{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+.services{
+    display: flex;
+    gap: 32px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 40px;
+    justify-content: space-between;
+    background-color: rgba(246, 246, 255, 0.678);
+}
+.service1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid rgb(219, 219, 219);
+    
+    width: 100%;
+
+}
+.service1:last-child{
+    border: none;
+}
+.service1 h4{
+    text-align: center;
+    max-width: 200px;
+}
+.img_donate{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.container_img_donate{
+ 
+}
+.ant-carousel {
+    width: 60%;
+    margin: auto;
+}
+.project{
+    width: 600px;
+    border-radius: 30% 70% 39% 61% / 63% 51% 49% 37% ;
+}
+
+.container-project{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    padding: 20px 5%;
+    border: 1px solid rgb(243, 242, 242);
+    border-left: 5px solid #F28705;
+    box-shadow: 4px 4px 2px rgba(158, 158, 158, 0.1);
+    border-radius: 10px;
+
+
+  }
+
+  .container-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+  }
+label{
+    text-transform: capitalize;
+}
+.title{
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+}
+

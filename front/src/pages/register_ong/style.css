@@ -1,0 +1,38 @@
+.container_form{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.container_inputs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+.input{
+    display: flex;
+    max-width: 500px;
+    gap: 1rem;
+    justify-content: space-between;
+}
+.qrCode{
+    width: 300px;
+    height: 300px;
+}
+.container-newOng{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+p{
+    width: 500px;
+}
+label{
+    font-weight: bold;
+    text-transform: capitalize;
+}

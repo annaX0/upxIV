@@ -1,0 +1,20 @@
+.modalEdit{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    top: 25%;
+    left: 25%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: 500px;
+    z-index: 999;
+}
+.background{
+    background-color: rgba(3, 3, 3, 0.500);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}

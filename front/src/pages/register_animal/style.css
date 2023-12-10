@@ -1,0 +1,20 @@
+.container_form{
+    display: flex;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+.container_inputs{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+.input{
+    display: flex;
+    max-width: 500px;
+    gap: 1rem;
+    justify-content: space-between;
+}
